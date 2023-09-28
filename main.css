@@ -30,6 +30,10 @@ section {
     flex-direction: row;
 }
 
+h2 {
+    font-weight: 800;
+}
+
 .headerstuff {
     display: flex;
     flex-direction: row;
@@ -108,16 +112,10 @@ section {
 }
 
 .footer {
-    margin: 2rem;
+    padding: 4rem;
+    background-color: cyan;
 }
 
-.footerlogo {
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 10rem;
-}
 
 .footerstuff {
     display: flex;
@@ -125,39 +123,10 @@ section {
     justify-content: space-between;
 }
 
-.cesoirlogo {
-    height: 3rem;
-    width: 10rem;
-}
-
-.pinkline {
-    height: .5rem;
-    width: 3rem;
-    background-color: #F04A80;
-    margin-top: .5rem;
-}
-
-.arrowdown {
-    color: #F04A80;
-    height: 3rem;
-    width: 3rem;
-    display: block;
-    margin-top: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 .eggimg {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
-}
-
-.socialicons {
-    height: 2rem;
-    width: 7rem;
-    margin-top: 6rem;
 }
 
 .icons {
@@ -210,12 +179,38 @@ section {
     margin: 0.5rem;
 }
 
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.signup {
+    margin: 2rem;
+}
+
+.newsletterInput {
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    border: grey 1px solid;
+}
+
+.newsletterButton {
+    height: 2.5rem;
+    width: 8rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: cyan;
+    font-size: medium;
+
+}
+
 @media screen and (max-width: 640px) {
     .elkhead {
-        display: none;
-    }
-
-    .arrowdown {
         display: none;
     }
 
