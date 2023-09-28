@@ -24,6 +24,7 @@ a {
     margin: 1rem;
     font-weight: 800;
 }
+
 a:hover {
     color: white;
 }
@@ -40,6 +41,10 @@ h2 {
 button:hover {
     cursor: pointer;
     background-color: rgb(123, 240, 240);
+}
+
+img {
+    max-width: 100%;
 }
 
 .headerstuff {
@@ -91,12 +96,6 @@ button:hover {
 
 .iconsHover:hover {
     color: white;
-}
-
-.elkhead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .elklogo {
@@ -151,6 +150,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    overflow-x: auto;
 }
 
 .card {
@@ -161,6 +161,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    white-space: normal; 
 }
 
 .card:hover {
@@ -222,21 +223,17 @@ button:hover {
 }
 
 @media screen and (max-width: 640px) {
-    .elkhead {
-        display: none;
-    }
 
     .links {
         display: none;
     }
 
-    .headerstuff {
-        align-items: center;
-        justify-content: center;
+    header {
+        height: 4rem;
     }
 
-    .logodiv {
-        margin: 50%;
+    .headerIcons {
+        display: none;
     }
 
     section {
@@ -257,8 +254,6 @@ button:hover {
     .footerstuff {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .footerlogo {
@@ -267,6 +262,38 @@ button:hover {
         flex-direction: column;
         align-items: center;
         width: 24rem;
+    }
+
+    .mobileMargin {
+        margin: 1rem;
+    }
+
+    .signup {
+        margin: 2rem;
+    }
+
+    .newsletterInput {
+        height: 2.5rem;
+        width: 15rem;
+        border-radius: 0.3rem;
+        border: grey 1px solid;
+    }
+
+    .newsletterButton {
+        height: 2.5rem;
+        width: 15rem;
+        font-weight: 600;
+        border-radius: 0.3rem;
+        border: none;
+        background-color: cyan;
+        font-size: medium;
 
     }
+
 }
+
+@media (min-width: 1024px) {
+    .cardSection {
+        justify-content: space-around;
+    }
+  }
