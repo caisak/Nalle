@@ -24,6 +24,9 @@ a {
     margin: 1rem;
     font-weight: 800;
 }
+a:hover {
+    color: white;
+}
 
 section {
     display: flex;
@@ -32,6 +35,11 @@ section {
 
 h2 {
     font-weight: 800;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(123, 240, 240);
 }
 
 .headerstuff {
@@ -79,6 +87,10 @@ h2 {
 
 .infotext {
     margin: 1rem;
+}
+
+.iconsHover:hover {
+    color: white;
 }
 
 .elkhead {
