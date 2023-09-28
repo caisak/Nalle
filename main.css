@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/woodwall.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #F04A80;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerstuff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infotext {
+    margin: 1rem;
+}
+
+.elkhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elklogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.wood {
+    height: 100vh;
+    width: 100vw;
+}
+
+.links {
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+.logodiv {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin: 2rem;
+}
+
+.footerlogo {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+}
+
+.footerstuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cesoirlogo {
+    height: 3rem;
+    width: 10rem;
+}
+
+.pinkline {
+    height: .5rem;
+    width: 3rem;
+    background-color: #F04A80;
+    margin-top: .5rem;
+}
+
+.arrowdown {
+    color: #F04A80;
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.eggimg {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.socialicons {
+    height: 2rem;
+    width: 7rem;
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 640px) {
+    .elkhead {
+        display: none;
+    }
+
+    .arrowdown {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .headerstuff {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logodiv {
+        margin: 50%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 2rem;
+    }
+
+    .sectionreverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        margin-top: 2rem;
+    }
+
+    .footerstuff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerlogo {
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 24rem;
+
+    }
+}
