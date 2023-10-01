@@ -74,11 +74,13 @@ img {
 }
 
 .content {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Merriweather', 'sans-serif';
+    margin: 1rem;
 }
 
 .teaser {
@@ -215,6 +217,8 @@ img {
 
 .signup {
     margin: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .newsletterInput {
@@ -223,6 +227,7 @@ img {
     border-radius: 0.3rem;
     border: grey 1px solid;
     font-size: 18px;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .newsletterButton {
@@ -258,6 +263,10 @@ img {
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 2rem;
+    }
+
+    .content {
+        width: 100%;
     }
 
     .sectionreverse {
