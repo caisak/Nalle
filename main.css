@@ -113,11 +113,6 @@ img {
     cursor: pointer;
 }
 
-.wood {
-    height: 100vh;
-    width: 100vw;
-}
-
 .links {
     text-transform: uppercase;
     margin: 2rem;
@@ -207,6 +202,10 @@ img {
     margin: 0.5rem;
 }
 
+.margin2 {
+    margin: 2rem;
+}
+
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -268,14 +267,6 @@ img {
 
     .content {
         width: 100%;
-    }
-
-    .sectionreverse {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .content {
         margin-top: 2rem;
     }
 
