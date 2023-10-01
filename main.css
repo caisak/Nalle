@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Nunito', 'sans-serif';
 }
 
 html {
@@ -16,6 +15,7 @@ body {
 header {
     width: 100%;
     background-color: #C5997A;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 a {
@@ -78,6 +78,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Merriweather', 'sans-serif';
 }
 
 .teaser {
@@ -98,6 +99,7 @@ img {
     text-transform: uppercase;
     font-weight: 600;
     font-size: medium;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .infotext {
@@ -128,6 +130,7 @@ img {
 .footer {
     padding: 4rem;
     background-color: #C5997A;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 
@@ -165,12 +168,17 @@ img {
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    white-space: normal; 
+    white-space: normal;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .card:hover {
     border-radius: 0.3rem;
     background-color: #FFF8F2;
+}
+
+.nunito {
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .image {
@@ -189,6 +197,7 @@ img {
     text-transform: uppercase;
     background-color: #C5997A;
     font-weight: 800;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .margin {
@@ -201,6 +210,7 @@ img {
     align-items: center;
     justify-content: center;
     margin: 2rem;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .signup {
@@ -223,7 +233,7 @@ img {
     border: none;
     background-color: #C5997A;
     font-size: medium;
-
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .footerIcons {
