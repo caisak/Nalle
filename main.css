@@ -212,6 +212,7 @@ img {
     width: 15rem;
     border-radius: 0.3rem;
     border: grey 1px solid;
+    font-size: 18px;
 }
 
 .newsletterButton {
