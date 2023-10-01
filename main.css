@@ -15,18 +15,24 @@ body {
 
 header {
     width: 100%;
-    background-color: cyan;
+    background-color: #C5997A;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 1rem;
     font-weight: 800;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
 a:hover {
     color: white;
+    text-decoration: underline;
 }
 
 section {
@@ -38,9 +44,13 @@ h2 {
     font-weight: 800;
 }
 
+button {
+    color: white;
+}
+
 button:hover {
     cursor: pointer;
-    background-color: rgb(123, 240, 240);
+    background-color: #A87653;
 }
 
 img {
@@ -55,7 +65,7 @@ img {
 }
 
 .hero {
-    background-color: red;
+    background-color: #FFF8F2;
     height: 65vh;
     width: 100%;
     display: flex;
@@ -83,7 +93,7 @@ img {
     width: 8rem;
     border-radius: 0.3rem;
     border: none;
-    background-color: cyan;
+    background-color: #C5997A;
     margin-top: 1rem;
     text-transform: uppercase;
     font-weight: 600;
@@ -95,14 +105,7 @@ img {
 }
 
 .iconsHover:hover {
-    color: white;
-}
-
-.elklogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    cursor: pointer;
 }
 
 .wood {
@@ -124,7 +127,7 @@ img {
 
 .footer {
     padding: 4rem;
-    background-color: cyan;
+    background-color: #C5997A;
 }
 
 
@@ -144,6 +147,7 @@ img {
     height: 1.5rem;
     width: 1.5rem;
     margin: 0.5rem;
+    color: white;
 }
 
 .cardSection {
@@ -166,8 +170,7 @@ img {
 
 .card:hover {
     border-radius: 0.3rem;
-    border: 1px rgb(214, 207, 207) solid;
-    background-color: rgb(252, 252, 249);
+    background-color: #FFF8F2;
 }
 
 .image {
@@ -184,7 +187,7 @@ img {
     border: none;
     margin-top: 1rem;
     text-transform: uppercase;
-    background-color: cyan;
+    background-color: #C5997A;
     font-weight: 800;
 }
 
@@ -217,9 +220,13 @@ img {
     font-weight: 600;
     border-radius: 0.3rem;
     border: none;
-    background-color: cyan;
+    background-color: #C5997A;
     font-size: medium;
 
+}
+
+.footerIcons {
+    padding-left: 3rem;
 }
 
 @media screen and (max-width: 640px) {
@@ -285,7 +292,7 @@ img {
         font-weight: 600;
         border-radius: 0.3rem;
         border: none;
-        background-color: cyan;
+        background-color: #C5997A;
         font-size: medium;
 
     }
@@ -295,5 +302,9 @@ img {
 @media (min-width: 1024px) {
     .cardSection {
         justify-content: space-around;
+    }
+
+    .menu {
+        display: none;
     }
   }
