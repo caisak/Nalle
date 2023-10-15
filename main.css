@@ -71,6 +71,21 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative; 
+}
+
+.opaque-box {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    padding: 4rem 8rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-family: 'Nunito', 'sans-serif';
+
 }
 
 .heroImage {
