@@ -57,11 +57,17 @@ img {
     max-width: 100%;
 }
 
+.nalle-logo {
+    height: 3rem;
+    width: 8rem;
+}
+
 .headerstuff {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hero {
@@ -136,11 +142,11 @@ img {
 
 .links {
     text-transform: uppercase;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .logodiv {
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
