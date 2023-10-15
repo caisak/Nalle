@@ -290,6 +290,10 @@ img {
         display: flex;
     }
 
+    .logodiv {
+        margin-top: 0.5rem;
+    }
+
     .hero {
         height: 60vh;
     }
