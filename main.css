@@ -434,3 +434,16 @@ img {
         display: none;
     }
   }
+
+  @media (max-width: 1072px) {
+    .links {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+    .headerIcons {
+        display: none;
+    }
+}
